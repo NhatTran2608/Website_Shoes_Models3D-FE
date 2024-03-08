@@ -1,0 +1,133 @@
+
+.main_brand {
+    margin: auto;
+    display: table;
+    list-style: none;
+}
+
+.Brand__name {
+    margin: auto;
+    display: inline-block;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0px 50px;
+    cursor: pointer;
+}
+
+.btn__brand {
+    border: none;
+    background-color: #fff;
+}
+
+.btn__brand:focus {
+    color: #0e8ce4;
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+body {
+    background: #f4f6f9;
+}
+
+a:focus,
+a:hover {
+    color: #000;
+}
+
+/* Preloader
+ ************************** */
+.spinner-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 999999;
+    background: #c5d0e2;
+}
+
+.none {
+    display: none;
+    z-index: -9999;
+}
+
+/* Products
+ ************************** */
+.grid-x-wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.product-item .product-item-content {
+    display: block;
+    position: relative;
+}
+
+.product-item {
+    display: block;
+    text-align: center;
+    color: #000;
+    padding: 0.8rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 10px 40px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+.product-item .product-item-image img {
+    width: 200px;
+    height: 180px;
+    /* border-radius: 100%; */
+    position: relative;
+    z-index: 3;
+}
+
+.product-item .product-item-category {
+    font-size: .875rem;
+}
+
+.product-item .product-item-title {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #999898;
+}
+
+.product-item .product-item-price {
+    font-size: 1.0625rem;
+}
+
+@media(min-width:1200px) and (max-width:1366px) {
+    .button-pill {
+        width: 100%;
+    }
+
+    .product-box {
+        padding: 0 10px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1200px) {
+    .product-item .product-item-title {
+        font-size: 0.888rem;
+    }
+
+    .product-item .product-item-price {
+        font-size: 0.788rem;
+        padding: 7px 0 0;
+    }
+
+    .product-box {
+        padding: 0 7px;
+    }
+}
