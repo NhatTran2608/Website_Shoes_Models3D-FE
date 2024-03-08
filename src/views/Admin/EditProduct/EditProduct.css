@@ -1,0 +1,45 @@
+.title_Warehouse {
+    margin-left: 280px;
+
+}
+
+.title_Warehouse h2 {
+    font-weight: bold;
+
+}
+
+.disCount_money {
+    display: none;
+}
+
+.img_item {
+    width: 150px;
+    border-radius: 100%;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.images {
+    display: inline-block;
+    margin: 10px;
+}
+
+.images {
+    position: relative;
+}
+
+.img_item {
+    margin: 10px;
+}
+
+.remove_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    color: red;
+    cursor: pointer;
+    padding: 6px 10px 6px 10px;
+    background-color: #ccc;
+    border-radius: 100%;
+}
