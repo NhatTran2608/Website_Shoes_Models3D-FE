@@ -1,0 +1,111 @@
+.wcvasquare {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.ip_radio:checked+.wcvasquare {
+    background-color: black;
+    color: white;
+}
+
+.ip_radio {
+    display: none;
+}
+
+.title_name {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 25px;
+    color: #1e1e23;
+}
+
+.title_price {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+del+span.woocommerce-Price-amount.amount {
+    color: #1e1e23;
+    font-size: 26px;
+}
+
+span.woocommerce-Price-amount.amount.discount {
+    color: red;
+    font-size: 26px;
+}
+
+.form_details {
+    color: #1e1e23;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.fa-circle {
+    max-width: 200px;
+}
+
+.attribute-swatch {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 7px;
+    padding: 1px;
+}
+
+.swatchinput {
+    position: relative;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.value {
+    width: 50%;
+}
+
+.wcvasquare {
+    width: 100%;
+    border-radius: 4px;
+    padding: 16px 16px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-align: center;
+    background: #FFF;
+    -webkit-box-align: center;
+    border: 1px solid #e5e5e5 !important;
+    outline: 0 !important;
+    color: #111;
+    /* -webkit-align-items: center; */
+    -webkit-box-pack: center;
+    /* -webkit-justify-content: center; */
+    min-width: auto !important;
+    cursor: pointer;
+    min-width: 69px;
+}
+
+.btn_buy {
+    min-width: auto;
+    width: 100%;
+    font-size: 1.1em;
+    /* line-height: 20px; */
+    height: 60px;
+    background-color: #1e1e23;
+}
+
+.btn_buyNow {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.btn_ship {
+    display: block;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 0.6rem;
+}
+
+.none_box {
+    background-color: #ccc;
+    color: #eceaea;
+    cursor: no-drop;
+
+}
